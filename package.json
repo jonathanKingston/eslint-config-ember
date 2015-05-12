@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-ember",
+  "version": "0.0.1",
+  "description": "Linting defaults to match Ember",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanKingston/eslint-config-ember.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Jonathan Kingston",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonathanKingston/eslint-config-ember/issues"
+  },
+  "homepage": "https://github.com/jonathanKingston/eslint-config-ember#readme",
+  "dependencies": {
+    "eslint-config-nightmare-mode": "0.0.1"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "eslint": "^0.21.0",
+    "mocha": "^2.2.4"
+  }
+}
