@@ -21,6 +21,12 @@ var overrides = {
             "A"
         ]
       }
+    ],
+    "one-var": [2,
+      {
+        "uninitialized": "always",
+        "initialized": "never"
+      }
     ]
   }
 };
