@@ -1,5 +1,5 @@
 var assign = require('object-assign');
-var config = require('eslint-config-nightmare-mode');
+var config = require('eslint-config-nightmare-mode/browser');
 // Ember specific overrides
 var overrides = {
  "rules": {
