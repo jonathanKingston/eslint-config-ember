@@ -27,7 +27,8 @@ var overrides = {
         "uninitialized": "always",
         "initialized": "never"
       }
-    ]
+    ],
+    "func-names": 0
   }
 };
 

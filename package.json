@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ember",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Linting defaults to match Ember",
   "main": "index.js",
   "scripts": {
