@@ -1,3 +1,6 @@
+# 0.1.0
+- Update to eslint@1.1.3
+
 # 0.0.5
 - Ignoring func-names as native Ember doesn't use this convention
 
