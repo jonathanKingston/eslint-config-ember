@@ -1,3 +1,10 @@
+# 0.2.0
+- Disable rules which cause issues in all Ember apps
+  - prefer-arrow-callback
+  - no-invalid-this
+  - prefer-template
+  - no-underscore-dangle
+
 # 0.1.0
 - Update to eslint@1.1.3
 

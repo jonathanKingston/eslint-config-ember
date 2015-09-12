@@ -28,7 +28,11 @@ var overrides = {
         "initialized": "never"
       }
     ],
-    "func-names": 0
+    "prefer-arrow-callback": 0,
+    "func-names": 0,
+    "no-invalid-this": 0,
+    "prefer-template": 0,
+    "no-underscore-dangle": 0
   }
 };
 
