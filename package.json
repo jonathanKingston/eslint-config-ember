@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/jonathanKingston/eslint-config-ember#readme",
   "dependencies": {
-    "eslint-config-nightmare-mode": "^0.2.1",
+    "eslint-config-nightmare-mode": "~0.3.0",
     "object-assign": "^4.0.1"
   },
   "devDependencies": {
