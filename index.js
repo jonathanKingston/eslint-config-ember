@@ -32,7 +32,8 @@ var overrides = {
     "func-names": 0,
     "no-invalid-this": 0,
     "prefer-template": 0,
-    "no-underscore-dangle": 0
+    "no-underscore-dangle": 0,
+    "no-restricted-syntax": [2, "WithStatement"]
   }
 };
 
