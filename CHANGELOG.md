@@ -1,3 +1,6 @@
+# 0.2.1
+- permit function expressions
+
 # 0.2.0
 - Disable rules which cause issues in all Ember apps
   - prefer-arrow-callback
