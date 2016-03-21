@@ -18,6 +18,15 @@
     "source": "var spoon = 'thhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhiiisssss iss longgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg';"
   },
   {
+    "ruleId": "no-var",
+    "severity": 2,
+    "message": "Unexpected var, use let or const instead.",
+    "line": 1,
+    "column": 1,
+    "nodeType": "VariableDeclaration",
+    "source": "var spoon = 'thhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhiiisssss iss longgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg';"
+  },
+  {
     "ruleId": "no-console",
     "severity": 2,
     "message": "Unexpected console statement.",
@@ -29,10 +38,17 @@
   {
     "ruleId": "spaced-comment",
     "severity": 2,
-    "message": "Expected space or tab after // in comment.",
+    "message": "Expected space or tab after '//' in comment.",
     "line": 3,
     "column": 1,
     "nodeType": "Line",
-    "source": "//thig"
+    "source": "//thig",
+    "fix": {
+      "range": [
+        190,
+        190
+      ],
+      "text": " "
+    }
   }
 ]
